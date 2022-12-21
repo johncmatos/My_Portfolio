@@ -1,19 +1,103 @@
 <!DOCTYPE html>
+<!--Many class amd Id's are missing a value,
+     so add it later when creating the adding the CSS and Javascript files for the page. 
+    To avoid confusion refer to the index.html file found locally on pc.-->
 <html>
     <head>
+        <title>JohnMatos | Software Engineer</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href=>
-        <title></title>
+  
     </head>
 
     <body>
-        <header>
-
+        <header id="">
+            <div class="">
+                <a href="#" class=""><img src="C:\Users\johnc\Pictures\Saved Pictures\JohnMfancy.jpg" alt="" /></a>
+                <h1><strong>I am John Matos</strong>, a Software Developer</h1>
+            </div>
         </header>
 
-       
+        <section>
+            <header>
+                <h2>About Me</h2>
+            </header>
+                <p>Here is a short paragraph about me.</p>
+                <ul class="">
+                    <li><a href=" class="">Resume</a></li>
+                </ul>
+        </section>
+
+        <section id=">
+        <h2>Recent Work</h2>
+        <div class="">
+            <article class="">
+                <a href="" class=""><img src="" alt="" /></a>
+                <h3>Tyler The Creator</h3>
+                <p>A mock website to promote a musician's work and his personality to the public. Made with HTML, and CSS.</p>
+            </article>
+            <article class="">
+                <a href="" class="><img src="" alt="" /></a>
+                <h3>Project 2</h3>
+                <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+            </article>
+            <article class="">
+                <a href="" class=""><img src="" alt="" /></a>
+                <h3>Project 3</h3>
+                <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+            </article>
+        </div>
+        <ul class="">
+            <li><a href="C:\Users\johnc\Documents\GitHub\Resume_Site\Full_Portfolio.html" class="">Full Portfolio</a></li>
+        </ul>
+    </section>
+
+    <section id=">
+        <h2>Contact</h2>
+        <div class="">
+            <div class="">
+                <form method=" action="#">
+                    <div class=">
+                        <div class=""><input type="text" name="name" id="name" placeholder="Name" /></div>
+                        <div class=""><input type="email" name="email" id="email" placeholder="Email" /></div>
+                        <div class="><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
+                    </div>
+                </form>
+                <ul class="">
+                    <li><input type="submit" value="Send Message" /></li>
+                </ul>
+            </div>
+            <div class="">
+                <ul class="labeled-icons">
+                    <li>
+                        <h3 class="icon solid fa-home"><span class="label">Address</span></h3>
+                        1211 N Redwood Rd.<br />
+                        Salt Lake City, UT 84116<br />
+                        United States
+                    </li>
+                    <li>
+                        <h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
+                        (385)332-7334
+                    </li>
+                    <li>
+                        <h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
+                        <a href="#">Johncmatos3@gmail.com</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
         <footer>
-          
+            <div class="inner">
+                <ul class="icons">
+                    <li><a href="https://github.com/johncmatos" class="icon brands fa-github"><span class="label">Github</span></a></li>
+                    <li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+                </ul>
+                <ul class="copyright">
+                    <li>&copy; Untitled</li><li>Design: <a href="">HTML5 UP</a></li>
+                </ul>
+            </div>
         </footer>
     </body>
