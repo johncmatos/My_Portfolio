@@ -4,25 +4,44 @@
 
 
 .container-1{
-    border: 1px solid black;
+    border: 11px solid black;
+    padding: px;
     display: flex;
+
     flex-direction: row;
-    background-image: url('tyler photos/download4.jfif');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    height: 900px;
-    font-size: 40px
+
+
    }
-   
-   .box-1{
-       border: 1px solid black;
-   flex: 1;
-   font-size: 40px
+
+   .one{
+    border: 1px solid rgb(39, 87, 20);
+  
+    flex: 1;
    }
+
+   .two{
+    border: 1px solid rgb(158, 205, 139);
+  
+    flex: 2;
+   }
+
+   .container-2{
+    border: 11px solid rgb(82, 13, 142);
+    padding: px;
+    display: flex;
+    
+    flex-direction: column;
+
+
+   }
+
+
+   .container-3{
+    border: 11px solid rgb(11, 224, 239);
+    padding: px;
+    display: flex;
    
-   .box-2{
-       border: 1px solid black;
-       text-align: center;
-   flex: 3;  
+    flex-direction: column;
+
+
    }
