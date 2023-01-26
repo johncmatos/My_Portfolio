@@ -1,29 +1,63 @@
 *{
     border: px solid rgb(253, 0, 0);
-    color: whitesmoke;
 }
 
 :any-link{
-color: #49AF73;
-  }
-  
+color: #5d5d5d;
 
+  }
+
+  hr {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+ 
+
+  a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+  
 body{
     margin:0;
+    font-family: cambria;
 }
 
 h1,h2,h3{
-    color: #6DDB9A;
+    color: #5d5d5d;
+}
+
+ul 
+{
+    list-style-type: none;
 }
 
 #container-1{
-    background-color: black;
+    background-color: #fff;
     display: flex;
 flex-direction: column;
 flex-wrap: wrap;
 }
 
-#title{color:whitesmoke}
+img {
+    border-radius: 50%;
+  }
+
+#title{color:#5d5d5d;
+       font-size: large; 
+}
 
 .box-1{
     text-align: center;
@@ -36,7 +70,7 @@ flex-wrap: wrap;
 #container-2{
     display: flex;
     flex-direction: column;
-background-color:#1C1C1D;
+background-color:#fff;
 }
 
 #box-2{
@@ -46,25 +80,58 @@ background-color:#1C1C1D;
 }
 
 #box-3{
-background-color: #38383C;
+    background-color:#fff;
     text-align: center;
     overflow: hidden;
 }
 
 #box-4{
-
     text-align: center;
     overflow: hidden;
 }
 
+
+.contact-box {
+    border-radius: 5px;
+
+    padding: 20px;
+  }
+
+  /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    background-color: rgb(243, 243, 243);
+  }
+
+  /* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: rgb(243, 243, 243);
+    color: #5d5d5d;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: rgb(126, 235, 129);
+  }
+
 #container-3{
-    background-color: black;
-    color:whitesmoke;
+    color:#5d5d5d;
     display: flex;
     flex-direction: column;
 }
 
 .box-5{
+    background-color: #fff;
     text-align: center;
     overflow: hidden;
     justify-content: center;
