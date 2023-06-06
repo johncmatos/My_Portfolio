@@ -50,7 +50,8 @@ ul
     display: flex;
 flex-direction: column;
 flex-wrap: wrap;
-background-image: url('file:///C:/Users/johnc/Desktop/Git_Repos/My_Portfolio/Images/pexels-cottonbro-studio-5185159.jpg');
+/* background-image: url('file:///C:/Users/johnc/Desktop/Git_Repos/My_Portfolio/Images/pexels-cottonbro-studio-5185159.jpg'); */
+background-image: url('file:///C:/Users/johnc/Desktop/Git_Repos/My_Portfolio/Images/pexels-fauxels-3184450.jpg');
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: cover;
@@ -60,9 +61,18 @@ img {
     border-radius: 50%;
   }
 
-#title{color:#fff;
+#title{color:#ffffff;
        font-size: 56px; 
        font-weight: bolder;
+       color: #000000;
+       text-shadow: 
+         1px 0px 1px #ccc, 0px 1px 1px #eee, 
+         2px 1px 1px #ccc, 1px 2px 1px #eee,
+         3px 2px 1px #ccc, 2px 3px 1px #eee,
+         4px 3px 1px #ccc, 3px 4px 1px #eee,
+         5px 4px 1px #ccc, 4px 5px 1px #eee,
+         6px 5px 1px #ccc, 5px 6px 1px #eee,
+         7px 6px 1px #ccc;
 }
 
 .box-1{
